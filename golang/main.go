@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"http-server/server"
 )
 
 func main() {
-	fmt.Println("Hello")
+	server.StartServer("", 3000)
 }

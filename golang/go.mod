@@ -1,3 +1,3 @@
-module panchromatic.org/http-server
+module http-server
 
 go 1.13
