@@ -7,4 +7,5 @@
   :profiles
   {:dev
    {:source-paths ["dev/src"]
-    :resource-paths ["dev/resources"]}})
+    :resource-paths ["dev/resources"]
+    :dependencies [[org.clojure/tools.namespace "0.3.1"]]}})
